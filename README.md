@@ -17,3 +17,6 @@ mv src/app/product.ts src/app/Product.ts
 
 serve:
 ng serve --open
+
+test:
+ng test
