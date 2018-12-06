@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4 card"
+         *ngFor="let product of products"
+         [ngStyle]="{ 'background-image': 'url(' + product.hero + ')'}">
+      <div>
+        <div>
+
+          <div class="card-heading"
+               [innerHTML]="product.name"></div>
+          <ks-modal-gallery [id]="6" [modalImages]="product.images">
+               </ks-modal-gallery>
+          <div class="card-price card-price-color"
+                [ngStyle]="{ 'display': 'absolute' }">
+                   $<span class="card-price-color"
+                          [innerHTML]="product.price"></span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
