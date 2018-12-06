@@ -117,23 +117,6 @@ export class ProductsComponent {
         ]
       },
       {
-        id:     groups[2].id,
-        name:   groups[2].name,
-        price:  groups[2].priceRange.selling.high,
-        hero:   groups[2].hero.href,
-        images: [
-            new Image(0, {
-              img: groups[2].hero.href,
-            }),
-            new Image(1, {
-              img: groups[2].images[0].href,
-            }),
-            new Image(2, {
-              img: groups[2].images[1].href,
-            })
-        ]
-      },
-      {
         id:     groups[3].id,
         name:   groups[3].name,
         price:  groups[3].priceRange.selling.high,
@@ -235,7 +218,6 @@ export class ProductsComponent {
             })
         ]
       },
-      ,
       {
         id:     groups[9].id,
         name:   groups[9].name,
